@@ -1,0 +1,65 @@
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    width: 100%;
+    height: max-content;
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+main form {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    gap: 1rem;
+}
+
+main form div{
+    display: flex;
+}
+
+main form div label {
+    width: 40%;
+}
+
+main form div button {
+    margin-right: 1rem;
+}
+
+button {
+    background-color: salmon;
+    border: 1px solid black;
+    padding: .5rem 1rem;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    color: white;
+}
+
+input {
+    height: 1.5rem;
+}
+
+span {
+    margin: 0 1rem;
+}
+
+table {
+    margin-top: 1rem;
+    width: 70%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+td {
+    border: 1px solid black;
+}

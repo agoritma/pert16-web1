@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AhmadGhozali-Web1-Pertemuan 16</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <form id="form">
+            <div>
+                <label for="pelanggan">Nama pelanggan</label>
+                <input type="text" name="pelanggan" id="pelanggan" required>
+            </div>
+            <div>
+                <label for="kategori">Kategori</label>
+                <select name="kategori" id="kategori">
+                    <option value="Sosial">Sosial</option>
+                    <option value="Rumah Tangga">Rumah Tangga</option>
+                    <option value="Industri">Industri</option>
+                </select>
+            </div>
+            <div>
+                <label for="priode">Nama pelanggan</label>
+                <input type="date" name="s-priode" required>
+                <span>sd</span>
+                <input type="date" name="e-priode" required>
+            </div>
+            <div>
+                <label for="used">Jumlah Pemakaian Listrik</label>
+                <input type="number" name="used" required>
+            </div>
+            <div>
+                <button type="button" id="submit">Submit</button>
+                <button type="reset">Cancel</button>
+            </div>
+        </form>
+        <table id="rincian">
+            
+        </table>
+    </main>
+    <script type="module" src="/main.js"></script>
+</body>
+</html>
