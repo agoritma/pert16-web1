@@ -40,7 +40,7 @@ function formSubmit() {
     }
 
     rincianTable.innerHTML += `<tr><td>Abodemen</td><td>${abodement}</td></tr>`
-    rincianTable.innerHTML += `<tr><td>Tarif Per Kwh</td><td>${tarif}</td></tr>`
+    rincianTable.innerHTML += `<tr><td>Tarif Per Kwh</td><td>Rp ${numberWithCommas(tarif)}</td></tr>`
     rincianTable.innerHTML += `<tr><td>Pajak</td><td>${pajak*100}%</td></tr>`
 
     let subTotal = (used * tarif)
